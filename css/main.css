@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+text-align: right;
+}
+
+h2 { 
+}
+
+h3 {  
+  text-align: center;
+} 
+
+img {
+  width: 100%;
+}
+
+.link {
+
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.row {
+  width: 100%;
+}
+
+.col-2 {
+  float: left;
+  width: 20%;
+}
+
+.col-4 {
+  float: left;
+  width: 30%;
+  margin-right: 48px;
+}
+
+.col-10 {
+  float: left;
+  width: 80%;
+}
+
+.header-text {
+  font-family: helvetica;
+  /*font-size:; 
+  font-weight:;*/
+}
+
+.github-image {
+  width: 76%;
+}
+
+.col-4:last-child { 
+  margin-right: 0;
+  text-align: center;
+}
