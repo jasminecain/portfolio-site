@@ -4,15 +4,19 @@ html, body {
 }
 
 h1 {
-text-align: right;
+  text-align: right;
 }
 
 h2 { 
+  text-align: right;
 }
 
 h3 {  
-  text-align: center;
+  text-align: left;
 } 
+
+h4 {
+}
 
 img {
   width: 100%;
@@ -60,4 +64,11 @@ img {
 .col-4:last-child { 
   margin-right: 0;
   text-align: center;
+}
+
+.with-border {
+  border-bottom: 3px solid gray;
+  overflow: auto;
+  padding-bottom: 12px;
+  margin-bottom: 33px;
 }
