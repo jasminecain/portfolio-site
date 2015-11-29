@@ -88,15 +88,6 @@ a {
   display: block;
 }
 
-/* Apple iPad */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-}
-
-/* Google Nexus 5 */
-@media screen and (min-device-width: 360px) and (max-device-width: 567px) {
-}
-
-/* Non Retina Screens */
 @media screen and (min-device-width: 1200px) { 
   .col-4 {
     float: left;
