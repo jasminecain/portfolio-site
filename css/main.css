@@ -1,34 +1,30 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-  text-align: right;
+h3 {
+  font-size: 24px;
 }
-
-h2 { 
-  text-align: right;
-}
-
-h3 {  
-  text-align: left;
-} 
 
 h4 {
+  font-size: 18px;
 }
 
 img {
   width: 100%;
 }
 
-.link {
-
+a {
+  color: #f08080;
+  text-decoration: none;
 }
 
 .container {
   margin: 0 auto;
   max-width: 960px;
+  padding: 40px 20px;
 }
 
 .row {
@@ -41,24 +37,8 @@ img {
 }
 
 .col-4 {
-  float: left;
-  width: 30%;
-  margin-right: 48px;
-}
-
-.col-10 {
-  float: left;
-  width: 80%;
-}
-
-.header-text {
-  font-family: helvetica;
-  /*font-size:; 
-  font-weight:;*/
-}
-
-.github-image {
-  width: 76%;
+  text-align: center;
+  width: 100%;
 }
 
 .col-4:last-child { 
@@ -66,9 +46,61 @@ img {
   text-align: center;
 }
 
+.col-4 h4 {
+  text-align: center;
+}
+
+.col-4 img {
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.col-10 {
+  float: left;
+  width: 80%;
+}
+
+.coral-rose {
+  width: 65%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+
+.github-image {
+  width: 76%;
+}
+
+.link {
+  text-decoration: none;
+}
+
 .with-border {
-  border-bottom: 3px solid gray;
+  border-bottom: 3px solid #bf6565;
   overflow: auto;
   padding-bottom: 12px;
   margin-bottom: 33px;
 }
+
+.header-text {
+  text-align: right;
+  display: block;
+}
+
+/* Apple iPad */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* Google Nexus 5 */
+@media screen and (min-device-width: 360px) and (max-device-width: 567px) {
+}
+
+/* Non Retina Screens */
+@media screen and (min-device-width: 1200px) { 
+  .col-4 {
+    float: left;
+    margin-right: 48px;
+    width: 30%;
+}
+
