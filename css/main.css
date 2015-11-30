@@ -41,7 +41,7 @@ a {
   width: 100%;
 }
 
-.col-4:last-child { 
+.col-4:last-child {
   margin-right: 0;
   text-align: center;
 }
@@ -91,7 +91,8 @@ a {
   display: block;
 }
 
-@media screen and (min-device-width: 1200px) { 
+/* Media query for laptop/larger screens */
+@media screen and (min-device-width: 1200px) {
   .col-4 {
     float: left;
     margin-right: 48px;
