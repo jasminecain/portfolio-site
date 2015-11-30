@@ -75,6 +75,10 @@ a {
   text-decoration: none;
 }
 
+.tagline {
+  text-align: center;
+}
+
 .with-border {
   border-bottom: 3px solid #bf6565;
   overflow: auto;
